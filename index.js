@@ -1,4 +1,4 @@
 module.exports = {
-  BestSelling: require('./BestSelling'),
-  Detail: require('./Detail')
+  BestSelling: require('./lib/BestSelling'),
+  Detail: require('./lib/Detail')
 };
