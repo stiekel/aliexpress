@@ -4,7 +4,7 @@ var assert = require('assert');
 var should = require('should');
 
 describe('AliExpress', function(){
-  let good;
+  var good;
   describe('Spider', function(){
     var url = 'http://qq.com';
     it(['request', url, 'show return a web page'].join(' '), function(){
