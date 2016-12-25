@@ -1,5 +1,5 @@
 var AliExpress = require('../');
-var Spider = require('../lib/spider');
+var Spider = require('../lib/Spider');
 var assert = require('assert');
 var should = require('should');
 
