@@ -22,7 +22,7 @@ AliExpressSpider.BestSelling.get().then(function(goods){
 
 Result sample:
 
-```json
+```javascript
 [
   {
     url: 'http://www.aliexpress.com/item/2015-Original-Micro-USB-Cable-with-Colorful-Nylon-Line-Metal-plug-for-iPhone-6-Plus-5s/32470659404.html?scm=1007.13442.37932.0&pvid=6092a253-929e-42ba-b75b-64fba51eed52&tpp=1',
@@ -48,8 +48,8 @@ AliExpressSpider.Detail(url).then(function(detail){
 
 Result sample:
 
-```json
-good Detail { productId: '32470659404',
+```javascript
+{ productId: '32470659404',
   name: 'Bastec USB Data Charger Cable Nylon Braided Wire Metal Plug Micro USB Cable for iPhone 6 6s Plus 5s 5 iPad mini Samsung Sony HTC',
   gallary:
    [ { alt: 'Bastec USB Data Charger Cable Nylon Braided Wire Metal Plug Micro USB Cable for iPhone 6 6s Plus 5s 5 iPad mini Samsung Sony HTC',
