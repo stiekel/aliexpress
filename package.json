@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/stiekel/aliexpress/issues"
   },
-  "homepage": "https://github.com/stiekel/aliexpress#readme"
+  "homepage": "https://github.com/stiekel/aliexpress#readme",
+  "devDependencies": {
+    "should": "^11.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "phantom": "^3.2.1"
+  }
 }
