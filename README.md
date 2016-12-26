@@ -35,8 +35,6 @@ Result sample:
 ### Get Good Detail
 
 ```javascript
-var Promise = require('bluebird');
-
 var AliExpressSpider = require('aliexpress');
 
 AliExpressSpider.Detail(url).then(function(detail){
