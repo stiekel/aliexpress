@@ -22,7 +22,7 @@ describe('AliExpress', function(){
         good.should.be.an.instanceOf(Object)
         good.url.should.be.an.String();
       });
-    })
+    });
   });
 
   describe('Detail', function () {
@@ -30,6 +30,6 @@ describe('AliExpress', function(){
       return AliExpress.Detail(good.url).then(function(d){
         d.should.be.an.instanceOf(Object);
       });
-    })
+    });
   });
 });
