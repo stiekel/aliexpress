@@ -29,6 +29,7 @@ describe('AliExpress', function(){
     it('showuld return Good Detail', function(){
       return AliExpress.Detail(good.url).then(function(d){
         d.should.be.an.instanceOf(Object);
+        d.productId.should.be.an.String();
       });
     });
   });
