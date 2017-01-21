@@ -1,6 +1,6 @@
 {
   "name": "aliexpress",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A aliexpress spider",
   "main": "index.js",
   "scripts": {
