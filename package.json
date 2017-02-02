@@ -4,7 +4,7 @@
   "description": "A aliexpress spider",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts test/test"
+    "test": "mocha --no-timeouts test/run.js"
   },
   "repository": {
     "type": "git",
