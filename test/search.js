@@ -8,8 +8,8 @@ describe('Search', function () {
     return AliExpress.Search('iPad').then(function(d){
       d.should.be.an.instanceOf(Object);
       d.list.should.be.an.instanceOf(Array);
-      // d.list.ddd.should.be.string();
-      // d.list.length.isNot(0);
+      d.pages.should.be.instanceOf(Number);
+      d.list.length.should.be.instanceOf(Number);
     })
   })
 })
