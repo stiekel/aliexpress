@@ -5,11 +5,11 @@ var should = require('should');
 
 var good;
 describe('Spider', function(){
-  var url = 'https://www.so.com/?src=so.com';
+  var url = 'https://www.aliexpress.com/';
   it(['request', url, 'show return a web page'].join(' '), function(){
     var spider = new Spider(url);
-    return spider.getHTML().then(function(d){
-      d.l.be.an.String();
+    return spider.getHTML(url).then(function(d){
+      d.should.be.an.String();
     });
   });
 });
