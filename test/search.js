@@ -5,7 +5,7 @@ var should = require('should');
 
 describe('Search', function () {
   it('should return search "iPad" results', function(){
-    return AliExpress.Search('iPad').then(function(d){
+    return AliExpress.Search({keyword: 'iPad', page: 2}).then(function(d){
       d.should.be.an.instanceOf(Object);
       d.list.should.be.an.instanceOf(Array);
       d.pages.should.be.instanceOf(Number);
