@@ -2,6 +2,9 @@
 
 This is a spider for [AliExpress](https://www.aliexpress.com/) written in Node.
 
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/aliexpress)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](https://travis-ci.org/stiekel/aliexpress)
+
 ## Install
 
 ```sh
