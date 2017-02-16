@@ -4,6 +4,7 @@ This is a spider for [AliExpress](https://www.aliexpress.com/) written in Node.
 
 [![npm](https://img.shields.io/npm/v/aliexpress.svg?style=flat-square)](https://www.npmjs.com/package/aliexpress)
 [![Travis](https://img.shields.io/travis/stiekel/aliexpress/master.svg?label=linux&style=flat-square)](https://travis-ci.org/stiekel/aliexpress)
+[![AppVeyor](https://img.shields.io/appveyor/ci/stiekel/aliexpress.svg?label=windows&style=flat-square&style=flat-square)](https://ci.appveyor.com/project/stiekel/aliexpress)
 
 ## Install
 
