@@ -8,6 +8,12 @@ This is a spider for [AliExpress](https://www.aliexpress.com/) written in Node.
 npm install aliexpress --save
 ```
 
+## Features
+
+*   Get Best Selling List
+*   Get Item Detail
+*   Get Search Result
+
 ## Usage
 
 ### Get [Best Selling](http://bestselling.aliexpress.com/en) List
