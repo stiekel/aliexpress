@@ -57,7 +57,8 @@ AliExpressSpider.Detail(url).then(function(detail){
 Result sample:
 
 ```javascript
-{ productId: '32470659404',
+{
+  productId: '32470659404',
   name: 'Bastec USB Data Charger Cable Nylon Braided Wire Metal Plug Micro USB Cable for iPhone 6 6s Plus 5s 5 iPad mini Samsung Sony HTC',
   gallary:
    [ { alt: 'Bastec USB Data Charger Cable Nylon Braided Wire Metal Plug Micro USB Cable for iPhone 6 6s Plus 5s 5 iPad mini Samsung Sony HTC',
@@ -71,7 +72,9 @@ Result sample:
      { title: 'Compatible Brand:',
        des: 'SONY,LG,Toshiba,Apple iPhones,Samsung,Panasonic,HTC' }
        ...
-     ] }
+     ]
+  orderCount: 40712
+},
 ```
 
 ### Get Search Result
