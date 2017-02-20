@@ -73,7 +73,10 @@ Result sample:
        des: 'SONY,LG,Toshiba,Apple iPhones,Samsung,Panasonic,HTC' }
        ...
      ]
-  orderCount: 40712
+  orderCount: 40712,
+  feedback:
+   { count: 30435,
+     stars: { '1': 4, '2': 2, '3': 4, '4': 38, '5': 385 } }
 },
 ```
 
