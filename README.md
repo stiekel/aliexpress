@@ -76,7 +76,9 @@ Result sample:
   orderCount: 40712,
   feedback:
    { count: 30435,
-     stars: { '1': 4, '2': 2, '3': 4, '4': 38, '5': 385 } }
+     stars: { '1': 4, '2': 2, '3': 4, '4': 38, '5': 385 },
+     voteCount: 31109,
+     rating: 4.8 }
 },
 ```
 
